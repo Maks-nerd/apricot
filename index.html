@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Абрикоска</title>
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/fonts.css" rel="stylesheet">
+	<link href="css/jquery.bxslider.css" rel="stylesheet">
+	<link href="css/jquery.fancybox.css" rel="stylesheet">
+</head>
+<body>
+	<!-- HEADER	 -->
+	<div class="header_bg">
+		<div class="wrapper">
+			<span class='logo'><a href="index.html"><img src="images/logo.png" alt="logo" /></a></span>
+			<div class="main_container clearfix">
+				<header>
+					<div class="adress">
+						<p>Приходите к нам по адресу: <span>с 7.00 - 21.00 ежедневно</span></p>
+						<p class='font'>г.Барнаул, ул Павловский тракт, 275, вход со двора</p>
+					</div>
+					<div class="header_right">
+						<div class="phone_top">
+							<p>+ 7 (3822) 45 58 78</p>
+							<p>+ 7 (3822) 45 58 78</p>
+						</div>
+						<div class="social">							
+							<a href="https://www.instagram.com/" target="_blank"></a>
+							<a href="https://vk.com/" target="_blank"></a>
+						</div>
+					</div>
+				</header>
+			</div>
+		</div>
+	</div>
+	<div class="main_nav">
+		<div class="wrapper">
+			<div class="main_container clearfix">
+				<ul class='menu'>
+					<li><a href="#m1">о нас</a></li>
+					<li><a href="#m2">Для дорогих мам</a></li>
+					<li><a href="#m3">Наша команда</a></li>
+					<li><a href="#m4">питание</a></li>                                     
+
+					<li><a href="#m5">фотогалерея</a></li>
+					<li><a href="#m6">гарантии</a></li>
+					<li><a href="#m7">отзывы</a></li>
+					<li><a href="#m8">карта проезда</a></li>
+				</ul>
+				<div class="burger">
+					<span class='lines'>
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</span>
+					<ul class='menu2'>
+						<li><a href="#m1">о нас</a></li>
+						<li><a href="#m2">Для дорогих мам</a></li>
+						<li><a href="#m3">Наша команда</a></li>
+						<li><a href="#m4">питание</a></li>                                     
+
+						<li><a href="#m5">фотогалерея</a></li>
+						<li><a href="#m6">гарантии</a></li>
+						<li><a href="#m7">отзывы</a></li>
+						<li><a href="#m8">карта проезда</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END HEADER	 -->
+	<!-- MAIN SLIDER -->
+	<div class="main_bg">
+		<div class="wrapper">
+			<div class="main_container clearfix">
+				<h1>Центр дневного присмотра и <br>ухода за детьми в г. Барнаул</h1>
+				<div class="l_side">
+					<h2>Идет набор детей в группу <br>от 1,5 до 4 лет. <br>Стоимость снижена до 25 декабря!</h2>
+					<p>Запишитесь на экскурсию: <span>+7 (913) 455 87 88</span><br>или оставьте заявку мы перезвоним!</p>
+				</div>
+				<div class="form_side">
+					<div class="form_title">осталось <span>4</span> места</div>
+					<div class="form_bg">
+						<div class="subtitle">записаться на экскурсию<br><span>и узнать стоимость</span></div>
+						<form id="form1" class='form1' method="POST" action="php/order.php"> 
+							<input type="text" name="name" id='name' placeholder="Имя" class="main_input">
+							<input type="tel" name="phone" id='phone' placeholder="Телефон" class="main_input">
+							<div id="recaptcha1"></div>
+							<input type="submit" value="Узнать стоимость" class="main_submit">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="squre_blocks">
+		<div class="main_container clearfix">
+			<div class="squre_block">
+				<img src="images/square_img1.png" alt="Alt">
+				<p>Группа выходного дня <br> первая смена</p>
+			</div>
+			<div class="squre_block">
+				<img src="images/square_img2.png" alt="Alt">
+				<p>Группа выходного дня <br> первая смена</p>
+			</div>
+			<div class="squre_block">
+				<img src="images/square_img3.png" alt="Alt">
+				<p>Группа выходного дня <br> первая смена</p>
+			</div>
+		</div>
+	</div>
+	<!-- END MAIN SLIDER -->
+	<!-- GROUPS -->
+	<div class="groups_bg">
+		<div class="wrapper">
+			<div class="main_container clearfix">
+				<div class="main_h1 white_h1" id='m1'>Группы выходного дня</div>
+				<div class="main_h2 white_h2">Дорогие родители, решайте свои дела а ребенок проведет время с пользой.</div>
+				<div class="groups_wrap clearfix">
+					<div class="groups_block clearfix g_right1">
+						<img src="images/icon_group1.png" alt="Alt" class="icon_group">
+						<div class="title_section">
+							<div class="title">Первая смена с 8:00 до 12:00</div>
+							<div class="mesta">в первую смену осталось 1 место</div>
+							<div class="cols_children"><span>в группе до 5 ребятишек</span>
+<!-- 							<p>Не всегда рабочий график совпадает с буднями и приходиться трудиться в выходные дни. Детский сады в данные дни к сожалению не работают.</p>
+	<p>Лучший выход из ситуации - отдать ваше чадо в группу выходного дня и решать свои дела со спокойной душой. Ваш ребенок будет под присмотром опытных педагогов а также увлекательное времяпровождение принесут ребенку радость и улыбку.</p> -->
+</div>
+<!-- <a href="#" class="show_more_groups1">узнать подробнее</a>
+	<a href="#" class="right_b1">свернуть</a> -->
+	<div class="page_cont1">
+		<p>Не у всех родителей находятся рядом бабушки и дедушки. А бывает порой катастрофически необходимо отлучится по неотложным делам.</p>
+		<p>Ребенку в это время лучше поиграть со сверстниками под присмотром опытного воспитателя, это будет полезно и интересно.</p>
+		<p>Открытые группы выходного дня – это решение этой проблемы.</p>
+		<p>В таких группах детки общаются, увлечены подвижными играми, гуляют на свежем воздухе, занимаются танцами и творчески развиваются.</p>
+		<div class="title">1-я смена включает в себя:</div>
+		<ul>
+			<li>•   прогулка (по погоде)</li>
+			<li>•   легкий и полезный ужин</li>
+			<li>•   1-2 позновательных занятия</li>
+			<li>•   детские, забавные игры </li>
+		</ul>
+		<div class="price clearfix">
+			<div class="title">Цена за смену 350 рублей</div>
+			<div class="pay_links">
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- 				<div class="desc_group">
+					<p>Не всегда рабочий график совпадает с буднями и приходиться трудиться в выходные дни. Детский сады в данные дни к сожалению не работают.</p>
+					<p>Лучший выход из ситуации - отдать ваше чадо в группу выходного дня и решать свои дела со спокойной душой. Ваш ребенок будет под присмотром опытных педагогов а также увлекательное времяпровождение принесут ребенку радость и улыбку.</p>
+				</div> -->
+				<div class="groups_block clearfix g_right">
+					<img src="images/icon_group2.png" alt="Alt" class="icon_group">
+					<div class="title_section">
+						<div class="title">Вторая смена с 14:00 до 18:00</div>
+						<div class="mesta">во вторую смену осталось 3 места</div>
+						<div class="cols_children">в группе до 5 ребятишек</div>
+					<!-- 	<a href="#" class="show_more_groups2">узнать подробнее</a>
+					<a href="#" class="right_b2">свернуть</a> -->
+					<div class="page_cont2">
+						<p>Наши дети - это смысл жизни. Мамы и папы радуются жизни своего ребенка. Но бывает такой момент, что "смысл жизни" на столько энергичный и неутомимый, что хочется отдохнуть и сделать запланированные дела.</p>
+						<p>"Абрикоска" - позаботится о вашем "сорванце" и подарит чудесные выходные среди сверстников и доброжелательных воспитателей. Вкуснейшее и здоровое питание, прогулки на улице и забавные детские игры принесут радость и позитивные эмоции ребенку.</p>
+						<div class="title">2-я смена включает в себя:</div>
+						<ul>
+							<li>•   плотный и насыщенный обед</li>
+							<li>•   1-2 позновательных занятия</li>
+							<li>•   прогулка (по погоде)</li>
+							<li>•   детские, забавные игры</li>
+						</ul>
+						<div class="price clearfix">
+							<div class="title">Цена за смену 350 рублей</div>
+							<div class="pay_links">
+								<a href="#"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="groups_block clearfix g_right2">
+				<img src="images/icon_group3.png" alt="Alt" class="icon_group">
+				<div class="title_section">
+					<div class="title">Третья смена с 18:00 до 22:00</div>
+					<div class="mesta">во вторую смену осталось 2 места</div>
+					<div class="cols_children">в группе до 5 ребятишек</div>
+				<!-- 		<a href="#" class="show_more_groups3">узнать подробнее</a>
+				<a href="#" class="right_b3">свернуть</a> -->
+				<div class="page_cont3">
+					<p>Не у всех родителей находятся рядом бабушки и дедушки. А бывает порой катастрофически необходимо отлучится по неотложным делам.</p>
+					<p>Ребенку в это время лучше поиграть со сверстниками под присмотром опытного воспитателя, это будет полезно и интересно.</p>
+					<p>Открытые группы выходного дня – это решение этой проблемы.</p>
+					<p>В таких группах детки общаются, увлечены подвижными играми, гуляют на свежем воздухе, занимаются танцами и творчески развиваются.</p>
+					<div class="title">3-я смена включает в себя:</div>
+					<ul>
+						<li>•   прогулка (по погоде)</li>
+						<li>•   легкий и полезный ужин</li>
+						<li>•   1-2 позновательных занятия</li>
+						<li>•   детские, забавные игры </li>
+					</ul>
+					<div class="price clearfix">
+						<div class="title">Цена за смену 350 рублей</div>
+						<div class="pay_links">
+							<a href="#"></a>
+							<a href="#"></a>
+							<a href="#"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+<!-- END GROUPS -->
+<!-- CIRLCES -->
+<div class="circles_bg">
+	<div class="main_container clearfix">
+		<div class="main_h1">Радость детям -
+			уверенность родителям</div>
+			<div class="main_h2">Почему родители выбирают детский сад "Абрикоска"
+			</div>
+			<div class="cirlces_wrap clearfix">
+				<div class="cirlces_block">
+					<div class="img_s">
+						<span>1</span>
+						<img src="images/circle_img1.png" alt="Alt">
+					</div>
+					<div class="title">Раннее интелектуальное развитие</div>
+					<p>(английский язык в игровой форме)</p>
+				</div>
+				<div class="cirlces_block">
+					<div class="img_s">
+						<span>2</span>
+						<img src="images/circle_img2.png" alt="Alt">
+					</div>
+					<div class="title">Индивидуальное питание с учетом особенностей вашего ребенка</div>
+					<p>(аллергики, вегетарианцы и т.п.)</p>
+				</div>
+				<div class="cirlces_block">
+					<div class="img_s">
+						<span>3</span>
+						<img src="images/circle_img3.png" alt="Alt">
+					</div>
+					<div class="title">Сотрудники с педагогичесим образованием</div>
+					<p>(большой опыт работы с детьми)</p>
+				</div>
+				<div class="cirlces_block">
+					<div class="img_s">
+						<span>4</span>
+						<img src="images/circle_img4.png" alt="Alt">
+					</div>
+					<div class="title">Регулярное озонирование</div>
+					<p>(лечит многие хронические заболевания)</p>
+				</div>
+				<div class="cirlces_block">
+					<div class="img_s">
+						<span>5</span>
+						<img src="images/circle_img5.png" alt="Alt">
+					</div>
+					<div class="title">Современная огороженная детская площадка</div>
+					<p>(с детьми находятся 2 сотрудника)</p>
+				</div>
+				<div class="cirlces_block">
+					<div class="img_s">
+						<span>6</span>
+						<img src="images/circle_img6.png" alt="Alt">
+					</div>
+					<div class="title">Просторные комнаты в помещении</div>
+					<p>(английский язык в игровой форме)</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END CIRLCES -->
+	<!-- FOR MOMS -->
+	<div class="moms_bg">
+		<div class="wrapper">
+			<div class="main_container clearfix">
+				<div class="main_h1 white_h1" id='m2'>Для ДОРОГИХ МАМ</div>
+				<div class="main_h2 white_h2">насыщенная программа развития в "АБРИКОСКЕ"</div>
+				<div class="mom_wrap">
+					<div class="mom_block">
+						<div class="number">1</div>
+						<div class="main_text">
+							<div class="title">Лепка из пластилина</div>
+							<p>Формирование сенсорной чувствительности, которая включает восприятие веса, размера, формы и фактуры предметов. Развивает мелкую моторику рук, образное мышление, фантазию и усидчивость.</p>
+						</div>
+						<img src="images/mom_img1.jpg" alt="Alt">
+					</div>
+					<div class="mom_block mom_left">
+						<div class="number">2</div>
+						<div class="main_text">
+							<div class="title">Логоритмика</div>
+							<p>Занятия эти очень полезны для физического, интеллектуального, речевого и эмоционального развития малыша. Тренируются и укрепляются мышцы, воспитывается чувство равновесия, ловкость, сила, выносливость, способность быстро переключаться с одного вида деятельности на другой, координация движений, красивая осанка.</p>
+						</div>
+						<img src="images/mom_img2.jpg" alt="Alt">
+					</div>
+					<div class="mom_block">
+						<div class="number">3</div>
+						<div class="main_text">
+							<div class="title">Изотерапия</div>
+							<p>Разгружает нервную систему, успокаивает психику. С помощью изотерапии, через рисунок малыши могут выразить свои эмоции. Психологическая зажатость, агрессивное поведение, неуравновешенность, низкая самооценка, чувство одиночества и ревность – эти и многие другие проблемы помогает решить изотерапия. </p>
+						</div>
+						<img src="images/mom_img3.jpg" alt="Alt">
+					</div>
+					<div class="mom_block mom_left">
+						<div class="number">4</div>
+						<div class="main_text">
+							<div class="title">Познание внешнего мира </div>
+							<p>Чем шире кругозор ребенка, тем легче ему будет идти в жизни. Общение со сверстниками, воспитание доброжелательного отношения к человеку. Ориентирнование в помещениях детского сада.</p>
+						</div>
+						<img src="images/mom_img4.jpg" alt="Alt">
+					</div>
+					<div class="mom_block">
+						<div class="number">5</div>
+						<div class="main_text">
+							<div class="title">Аппликация</div>
+							<p>Развитие художественного воображения и эстетического вкуса. Спосбность улучшать изучение цветов и форм предметов, усиливает тактильные ощущения а так же мощно развивает мышление будущего "инженера-конструктора".</p>
+						</div>
+						<img src="images/mom_img5.jpg" alt="Alt">
+					</div>
+					<div class="mom_block mom_left">
+						<div class="number">6</div>
+						<div class="main_text">
+							<div class="title">Начальная математика </div>
+							<p>Развитие художественного воображения и эстетического вкуса. Спосбность улучшать изучение цветов и форм предметов, усиливает тактильные ощущения а так же мощно развивает мышление будущего "инженера-конструктора".</p>
+						</div>
+						<img src="images/mom_img6.jpg" alt="Alt">
+					</div>
+				</div>
+				<div class="two_links"><a href="#">Смотреть распорядок дня</a><a href="#">Режим дня (холодный период)</a></div>
+			</div>
+		</div>
+	</div>
+	<!-- END FOR MOMS -->
+	<!-- OUR TEAM -->
+	<div class="main_container clearfix">
+		<div class="main_h1" id='m3'>Наша команда</div>
+		<div class="main_h2">Педагоги "АБРИКОСКИ" окружат вниманием и бережной<br> заботой ваших детей</div>
+		<div class="team_slider_wrap clearfix">
+			<div class="bx-pager clearfix">
+				<a href="#" data-slide-index="0">
+					<span class="imgg_s">
+						<img src="images/team_img1.png" alt="Alt">
+					</span>
+					<span class="title">Татьяна Каратаева <br>директор "АБРИКОСКА"</span>
+				</a>
+				<a href="#" data-slide-index="1">
+					<span class="imgg_s">
+						<img src="images/team_img2.png" alt="Alt">
+					</span>
+					<span class="title">Татьяна Каратаева <br>директор "АБРИКОСКА"</span>
+				</a>
+				<a href="#" data-slide-index="2">
+					<span class="imgg_s">
+						<img src="images/team_img3.png" alt="Alt">
+					</span>
+					<span class="title">Татьяна Каратаева <br>директор "АБРИКОСКА"</span>
+				</a>
+			</div>
+			<ul class="bxslider">
+				<li>
+					<div class="team_block">
+						<img src="images/main_team_img1.png" alt="Alt" class="main_team_img">
+						<div class="main_team_text">
+							<div class="title">Татьяна Каратаева <br> директор "АБРИКОСКА"</div>
+							<p>Дорогие мамочки и папочки, наши дети - это наше счастье, правда мы с вами знаем, что не только в малышах оно заключается. А также желании воплотить свои замыслы в не семьи - выйти в общество, развить свои хобби, помоч другим людям</p>
+							<p>В свой детский сад ходит моя младшая дочь</p>
+							<p>Короче, тут речь от тебя, трали вали пара трупер!!!!!</p>
+							<a href="#" class='call'>Написать директору<span>+7 913 455 87-88</span></a>
+						</div>
+						<a href="images/sert.jpg" class="fancybox"><img src="images/sert.jpg" alt="Alt"></a>
+					</div>
+				</li>
+				<li>
+					<div class="team_block">
+						<img src="images/main_team_img1.png" alt="Alt" class="main_team_img">
+						<div class="main_team_text">
+							<div class="title">Татьяна Каратаева <br> директор "АБРИКОСКА"</div>
+							<p>Дорогие мамочки и папочки, наши дети - это наше счастье, правда мы с вами знаем, что не только в малышах оно заключается. А также желании воплотить свои замыслы в не семьи - выйти в общество, развить свои хобби, помоч другим людям</p>
+							<p>В свой детский сад ходит моя младшая дочь</p>
+							<p>Короче, тут речь от тебя, трали вали пара трупер!!!!!</p>
+							<a href="#" class='call'>Написать директору<span>+7 913 455 87-88</span></a>
+						</div>
+						<a href="images/sert.jpg" class="fancybox"><img src="images/sert.jpg" alt="Alt"></a>
+					</div>
+				</li>
+				<li>
+					<div class="team_block">
+						<img src="images/main_team_img1.png" alt="Alt" class="main_team_img">
+						<div class="main_team_text">
+							<div class="title">Татьяна Каратаева <br> директор "АБРИКОСКА"</div>
+							<p>Дорогие мамочки и папочки, наши дети - это наше счастье, правда мы с вами знаем, что не только в малышах оно заключается. А также желании воплотить свои замыслы в не семьи - выйти в общество, развить свои хобби, помоч другим людям</p>
+							<p>В свой детский сад ходит моя младшая дочь</p>
+							<p>Короче, тут речь от тебя, трали вали пара трупер!!!!!</p>
+							<a href="#">Написать директору<span>+7 913 455 87-88</span></a>
+						</div>
+						<a href="images/sert.jpg" class="fancybox"><img src="images/sert.jpg" alt="Alt"></a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- END OUR TEAM -->
+	<!-- FOOD -->
+	<div class="food_bg">
+		<div class="main_container clearfix">
+			<div class="wrapper">
+				<div class="main_h1 white_h1" id='m4'>ВКУСНОЕ И ПОЛЕЗНОЕ ПИТАНИЕ</div>
+				<div class="main_h2 white_h2">Индивидуальное питание с учетом особенностей вашего ребенка <br>
+					(аллергики, вегетарианцы и т.п.)</div>
+					<div class="food_table">
+						<div class="title_sec">
+							<div class="title_sec_block">
+								<div class="letter one">1</div>
+								<p>Понедельник</p>
+							</div>
+							<div class="title_sec_block">
+								<div class="letter two">2</div>
+								<p>Вторник</p>
+							</div>
+							<div class="title_sec_block">
+								<div class="letter three">3</div>
+								<p>Среда</p>
+							</div>
+							<div class="title_sec_block">
+								<div class="letter four">4</div>
+								<p>Четверг</p>
+							</div>
+							<div class="title_sec_block">
+								<div class="letter five">5</div>
+								<p>Пятница</p>
+							</div>
+						</div>
+						<div class="divider"></div>
+						<div class="title_sec1">
+							<div class="title_sec_block">
+								<div class="letter one">1</div>
+								<p>Понедельник</p>
+							</div>
+						</div>
+						<div class="divider1"></div>
+						<div class="raspisanine_block">
+							<div class="title">Завтрак:</div>
+
+							<p>Суп-лапша (молочная); <br>
+								Хлеб с маслом и сыром;<br>
+								Чай с молоком.</p>
+
+								<div class="title">Обед:</div>
+
+								<p>Суп рисовый на курином <br>         бульене;<br>
+									Картофель тушеный с мясом<br> (говядина) с овощами; <br>
+									Салат (огурцы, помидор);<br>
+									Морс (смородина).</p>
+
+									<div class="title">Полдник:</div>
+
+									<p>Яблоки;<br>
+										Печенье;<br>
+										Морс.</p>
+
+										<div class="title">Ужин:</div>
+
+										<p>Творожные оладушки со <br>        сметаной;<br>
+											Чай.</p>
+
+
+										</div>
+										<div class="title_sec1">
+											<div class="title_sec_block">
+												<div class="letter two">2</div>
+												<p>Вторник</p>
+											</div>
+										</div>
+										<div class="divider1"></div>
+										<div class="raspisanine_block">
+											<div class="title">Завтрак:</div>
+
+											<p>Суп-лапша (молочная);<br>
+												Хлеб с маслом и сыром;<br>
+												Чай с молоком.</p>
+
+												<div class="title">Обед:</div>
+
+												<p>Суп рисовый на курином<br>          бульене;<br>
+													Картофель тушеный с мясом<br> (говядина) с овощами;<br>
+													Салат (огурцы, помидор);<br>
+													Морс (смородина).</p>
+
+													<div class="title">Полдник:</div>
+
+													<p>Яблоки;<br>
+														Печенье;<br>
+														Морс.</p>
+
+														<div class="title">Ужин:</div>
+
+														<p>Творожные оладушки со <br>        сметаной;<br>
+															Чай.</p>
+
+
+														</div>
+														<div class="title_sec1">
+															<div class="title_sec_block">
+																<div class="letter three">3</div>
+																<p>Среда</p>
+															</div>
+														</div>
+														<div class="divider1"></div>
+														<div class="raspisanine_block">
+															<div class="title">Завтрак:</div>
+
+															<p>Суп-лапша (молочная);<br>
+																Хлеб с маслом и сыром;<br>
+																Чай с молоком.</p>
+
+																<div class="title">Обед:</div>
+
+																<p>Суп рисовый на курином <br>         бульене;<br>
+																	Картофель тушеный с мясом<br> (говядина) с овощами;<br>
+																	Салат (огурцы, помидор);<br>
+																	Морс (смородина).</p>
+
+																	<div class="title">Полдник:</div>
+
+																	<p>Яблоки;<br>
+																		Печенье;<br>
+																		Морс.</p>
+
+																		<div class="title">Ужин:</div>
+
+																		<p>Творожные оладушки со<br>         сметаной;<br>
+																			Чай.</p>
+
+
+																		</div>
+																		<div class="title_sec1">
+																			<div class="title_sec_block">
+																				<div class="letter four">4</div>
+																				<p>Четверг</p>
+																			</div>
+																		</div>
+																		<div class="divider1"></div>
+																		<div class="raspisanine_block">
+																			<div class="title">Завтрак:</div>
+
+																			<p>Суп-лапша (молочная);<br>
+																				Хлеб с маслом и сыром;<br>
+																				Чай с молоком.</p>
+
+																				<div class="title">Обед:</div>
+
+																				<p>Суп рисовый на курином <br>         бульене;<br>
+																					Картофель тушеный с мясом<br> (говядина) с овощами;<br>
+																					Салат (огурцы, помидор);<br>
+																					Морс (смородина).</p>
+
+																					<div class="title">Полдник:</div>
+
+																					<p>Яблоки;<br>
+																						Печенье;<br>
+																						Морс.</p>
+
+																						<div class="title">Ужин:</div>
+
+																						<p>Творожные оладушки со <br>        сметаной;<br>
+																							Чай.</p>
+
+
+																						</div>
+																						<div class="title_sec1">
+																							<div class="title_sec_block">
+																								<div class="letter five">5</div>
+																								<p>Пятница</p>
+																							</div>
+																						</div>
+																						<div class="divider1"></div>
+																						<div class="raspisanine_block">
+																							<div class="title">Завтрак:</div>
+
+																							<p>Суп-лапша (молочная);<br>
+																								Хлеб с маслом и сыром;<br>
+																								Чай с молоком.</p>
+
+																								<div class="title">Обед:</div>
+
+																								<p>Суп рисовый на курином <br>         бульене;<br>
+																									Картофель тушеный с мясом<br> (говядина) с овощами;<br>
+																									Салат (огурцы, помидор);<br>
+																									Морс (смородина).</p>
+
+																									<div class="title">Полдник:</div>
+
+																									<p>Яблоки;<br>
+																										Печенье;<br>
+																										Морс.</p>
+
+																										<div class="title">Ужин:</div>
+
+																										<p>Творожные оладушки со <br>        сметаной;<br>
+																											Чай.</p>
+
+
+																										</div>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																						<!-- END FOOD -->
+																						<!-- GALLERY -->
+																						<div class="main_container clearfix">
+																							<div class="wrapper">
+																								<div class="main_h1" id='m5'>Фотогалерея</div>
+																								<div class="gallery_blocks clearfix" id="tabs">
+																									<div class="gallery_block tabs">
+																										<a href="#g1">
+																											<div class="letter">48</div>
+																											<img src="images/gallery_img1.jpg" alt="Alt">
+																											<div class="title">Наш садик</div>
+																										</a>
+																									</div>
+																									<div class="gallery_block tabs">
+																										<a href="#g2">
+																											<div class="letter">125</div>
+																											<img src="images/gallery_img2.jpg" alt="Alt">
+																											<div class="title">Играем</div>
+																										</a>
+																									</div>
+																									<div class="gallery_block tabs">
+																										<a href="#g3">
+																											<div class="letter">18</div>
+																											<img src="images/gallery_img3.jpg" alt="Alt">
+																											<div class="title">Мероприятия</div>
+																										</a>
+																									</div>
+																								</div>
+																								<div class="tabs-content">
+																									<div class="main_gallery" id='g1'>
+																										<!-- The main images -->
+																										<div class="left_side">
+																											<ul id="bxslider">
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																											</ul>
+																										</div>
+																										<!-- The thumbnails -->
+																										<div class="r_side">
+																											<ul id="bxslider-pager">
+																												<li data-slideIndex="0"><a href=""><img src="images/thumb1.png" alt="Alt"></a></li>
+																												<li data-slideIndex="1"><a href=""><img src="images/thumb2.png" alt="Alt"></a></li>
+																												<li data-slideIndex="2"><a href=""><img src="images/thumb3.png" alt="Alt"></a></li>
+																												<li data-slideIndex="3"><a href=""><img src="images/thumb4.png" alt="Alt"></a></li>
+																												<li data-slideIndex="0"><a href=""><img src="images/thumb1.png" alt="Alt"></a></li>
+																												<li data-slideIndex="1"><a href=""><img src="images/thumb2.png" alt="Alt"></a></li>
+																												<li data-slideIndex="2"><a href=""><img src="images/thumb3.png" alt="Alt"></a></li>
+																												<li data-slideIndex="3"><a href=""><img src="images/thumb4.png" alt="Alt"></a></li>
+																											</ul>
+																										</div>
+																									</div>
+																									<div class="main_gallery" id='g2'>
+																										<!-- The main images -->
+																										<div class="left_side">
+																											<ul id="bxslider2">
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img2'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img2'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img2'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img2'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img2'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img2'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img2'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img2'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																											</ul>
+																										</div>
+																										<!-- The thumbnails -->
+																										<div class="r_side">
+																											<ul id="bxslider-pager2">
+																												<li data-slideIndex="0"><a href=""><img src="images/thumb2.png" alt="Alt"></a></li>
+																												<li data-slideIndex="1"><a href=""><img src="images/thumb3.png" alt="Alt"></a></li>
+																												<li data-slideIndex="2"><a href=""><img src="images/thumb1.png" alt="Alt"></a></li>
+																												<li data-slideIndex="3"><a href=""><img src="images/thumb4.png" alt="Alt"></a></li>
+																												<li data-slideIndex="0"><a href=""><img src="images/thumb2.png" alt="Alt"></a></li>
+																												<li data-slideIndex="1"><a href=""><img src="images/thumb3.png" alt="Alt"></a></li>
+																												<li data-slideIndex="2"><a href=""><img src="images/thumb1.png" alt="Alt"></a></li>
+																												<li data-slideIndex="3"><a href=""><img src="images/thumb4.png" alt="Alt"></a></li>
+																											</ul>
+																										</div>
+																									</div>
+																									<div class="main_gallery" id='g3'>
+																										<!-- The main images -->
+																										<div class="left_side">
+																											<ul id="bxslider3">
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img3'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img3'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img3'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img3'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img3'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img3'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img3'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																												<li><a href="images/main_gallery_img.png" class="fancybox" rel='img3'><img src="images/main_gallery_img.png" alt="Alt"></a></li>
+																											</ul>
+																										</div>
+																										<!-- The thumbnails -->
+																										<div class="r_side">
+																											<ul id="bxslider-pager3">
+																												<li data-slideIndex="0"><a href=""><img src="images/thumb4.png" alt="Alt"></a></li>
+																												<li data-slideIndex="1"><a href=""><img src="images/thumb2.png" alt="Alt"></a></li>
+																												<li data-slideIndex="2"><a href=""><img src="images/thumb3.png" alt="Alt"></a></li>
+																												<li data-slideIndex="3"><a href=""><img src="images/thumb1.png" alt="Alt"></a></li>
+																												<li data-slideIndex="0"><a href=""><img src="images/thumb4.png" alt="Alt"></a></li>
+																												<li data-slideIndex="1"><a href=""><img src="images/thumb2.png" alt="Alt"></a></li>
+																												<li data-slideIndex="2"><a href=""><img src="images/thumb3.png" alt="Alt"></a></li>
+																												<li data-slideIndex="3"><a href=""><img src="images/thumb1.png" alt="Alt"></a></li>
+																											</ul>
+																										</div>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																						<!-- END GALLERY -->
+																						<!-- HEALTH -->
+																						<div class="health_bg">
+																							<div class="main_container clearfix">
+																								<div class="wrapper">
+																									<div class="main_h1 white_h1" id='m6'>Здоровье ребенка - базовая ценность</div>
+																									<div class="main_h2 green_h2">Мы гарантируем:</div>
+																									<div class="health_wrap clearfix">
+																										<div class="health_block">
+																											<img src="images/check.png" alt="Alt">
+																											<div class="title">Вкусное, свежее и индивидуальное питание;</div>
+																										</div>
+																										<div class="health_block">
+																											<img src="images/check.png" alt="Alt">
+																											<div class="title">Интересные, развивающие и позновательные занятия;</div>
+																										</div>
+																										<div class="health_block">
+																											<img src="images/check.png" alt="Alt">
+																											<div class="title">Сладкий и здоровый сон;</div>
+																										</div>
+																										<div class="health_block">
+																											<img src="images/check.png" alt="Alt">
+																											<div class="title">Прекрасное времяпровождение на улице.</div>
+																										</div>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																						<!-- END HEALTH -->
+																						<!-- REVIEWS -->
+																						<div class="review_bg">
+																							<div class="main_container clearfix">
+																								<div class="main_h1" id='m7'>Реальные отзывы</div>
+																								<div class="main_h2">Устами родителей</div>
+																								<ul class="bxslider2">
+																									<li>
+																										<div class="slide_block clearfix">
+																											<div class="review_photo">
+																												<img src="images/review_photo.png" alt="Alt">
+																												<a href="#">vk.com/id54316876</a>
+																												<span>(можете связаться со мной<br>
+																													для подтверждения отзыва)</span>
+																												</div>
+																												<div class="review_text">
+																													<div class="title">Наталья Ларина</div>
+																													<span>мама Сережи Ларина(2 года)</span>
+																													<p>Была в Бамбини на Павловском тракте 221, понравилось. :in_love: 9500 в месяц + 5000 первоначальный взнос. Все чистенько, уютно. Девушка на ресепшене все рассказала, показала, посмотрели все группы, деточки ни где не плакали, не ругались, в средней группе проходили музыкальные занятия. У каждого ребеночка свой горшочек, все подписано, свое полотенце. Во дворе дома, есть детская площадка, которую садик сам оборудовал и эта площадка огорожена. Питание 5 раз в день "Глобус". При нас привезли еду, пахло вкусно)))) В каждой группе присутствовала воспитатель. Я попросила различную информацию о расписании, занятиях и прочем. Мне все дали. Вышли с приятными впечатлениями. Была в Барбариках на красноармейском 55а, рядом с работой супруга, подумали, если садик хороший, то будет удобно завозить сынульку туда по дороге на работу и с работы забирать. По цене 10 т.р. в месяц + первоначальный взнос 10 т.р. Честно, даже не возникло желание войти во внутрь. Находится садик в отдельном здании, здание старое, развалюха какая-то, у входа в ворота стояли мусорные баки, жарко и очень плохо<span class='text'>пахло соответственно. Потом я увидела "детскую площадку". Маленький закуточек, страшный какой-то, там играли 5 детишек под присмотром воспитательницы. Думаю, что с трудом туда больше детей поместится. Рядом со входом на территорию какая-то канава, рядом с мусорными баками. Короче говоря, дальше смотреть желания не возникло. После, мы направились с "Умнички" на Попова 61Б. Стоимость 10 т.р.+взнос 10 т.р. Тоже отдельное здание, но тут уже все цивилизованно. Они открылись только в мае и у них еще все достаточно "сырое". Располагаются они на втором этаже, одна группа от 1,5 до 3-х лет. До 15 детей в группе. Большая игровая комната и отдельно спальня. Но пока детки из садика находятся в игровой комнате, в спальне проводят занятия для детей, которые просто приходят на развивающие занятия. Питание тоже "Глобус". Что смутило: 1 горшок на двоих детей. Это же гигиена!!!! 1 полотенце на двоих детей!!! Еще отсутствует своя территория, гуляют во дворе соседнего дома, там ничего не огорожено, машины заезжают и паркуются прямо на травке игровой площадки. Дети ходят гулять с воспитателями без жилетов цветовых. Я считаю это опасно, легко можно отвлечься на одного ребенка и не уследить за другим. Разбегутся или хуже того, кто утащит. Но они пытаются заключить договор с хозяином здания, в котором у них сад и их территорию освоить) Было бы замечательно! Что подкупило! У них в здании бассейн!!! И каждую пятницу приходит тренер из бассейна и забирает индивидуально каждого ребеночка, учатся с ним плавать по часу.После всего увиденного, мы сделали выбор в пользу Бамбини, а вот телефончик тренера из бассйена возьмем</span></p>
+																													<span href="" class='more1'>свернуть</span>
+																													<span href="" class='more'>развернуть</span>
+																												</div>
+																											</div>
+																										</li>
+																										<li>
+																											<div class="slide_block clearfix">
+																												<div class="review_photo">
+																													<img src="images/review_photo.png" alt="Alt">
+																													<a href="#">vk.com/id54316876</a>
+																													<span>(можете связаться со мной<br>
+																														для подтверждения отзыва)</span>
+																													</div>
+																													<div class="review_text">
+																														<div class="title">Наталья Ларина</div>
+																														<span>мама Сережи Ларина(2 года)</span>
+																														<p>Была в Бамбини на Павловском тракте 221, понравилось. :in_love: 9500 в месяц + 5000 первоначальный взнос. Все чистенько, уютно. Девушка на ресепшене все рассказала, показала, посмотрели все группы, деточки ни где не плакали, не ругались, в средней группе проходили музыкальные занятия. У каждого ребеночка свой горшочек, все подписано, свое полотенце. Во дворе дома, есть детская площадка, которую садик сам оборудовал и эта площадка огорожена. Питание 5 раз в день "Глобус". При нас привезли еду, пахло вкусно)))) В каждой группе присутствовала воспитатель. Я попросила различную информацию о расписании, занятиях и прочем. Мне все дали. Вышли с приятными впечатлениями. Была в Барбариках на красноармейском 55а, рядом с работой супруга, подумали, если садик хороший, то будет удобно завозить сынульку туда по дороге на работу и с работы забирать. По цене 10 т.р. в месяц + первоначальный взнос 10 т.р. Честно, даже не возникло желание войти во внутрь. Находится садик в отдельном здании, здание старое, развалюха какая-то, у входа в ворота стояли мусорные баки, жарко и очень плохо<span class='text2'>пахло соответственно. Потом я увидела "детскую площадку". Маленький закуточек, страшный какой-то, там играли 5 детишек под присмотром воспитательницы. Думаю, что с трудом туда больше детей поместится. Рядом со входом на территорию какая-то канава, рядом с мусорными баками. Короче говоря, дальше смотреть желания не возникло. После, мы направились с "Умнички" на Попова 61Б. Стоимость 10 т.р.+взнос 10 т.р. Тоже отдельное здание, но тут уже все цивилизованно. Они открылись только в мае и у них еще все достаточно "сырое". Располагаются они на втором этаже, одна группа от 1,5 до 3-х лет. До 15 детей в группе. Большая игровая комната и отдельно спальня. Но пока детки из садика находятся в игровой комнате, в спальне проводят занятия для детей, которые просто приходят на развивающие занятия. Питание тоже "Глобус". Что смутило: 1 горшок на двоих детей. Это же гигиена!!!! 1 полотенце на двоих детей!!! Еще отсутствует своя территория, гуляют во дворе соседнего дома, там ничего не огорожено, машины заезжают и паркуются прямо на травке игровой площадки. Дети ходят гулять с воспитателями без жилетов цветовых. Я считаю это опасно, легко можно отвлечься на одного ребенка и не уследить за другим. Разбегутся или хуже того, кто утащит. Но они пытаются заключить договор с хозяином здания, в котором у них сад и их территорию освоить) Было бы замечательно! Что подкупило! У них в здании бассейн!!! И каждую пятницу приходит тренер из бассейна и забирает индивидуально каждого ребеночка, учатся с ним плавать по часу.После всего увиденного, мы сделали выбор в пользу Бамбини, а вот телефончик тренера из бассйена возьмем</span></p>
+																														<span href="" class='more3'>свернуть</span>
+																														<span href="" class='more2'>развернуть</span>
+																													</div>
+																												</div>
+																											</li>
+																										</ul>
+																										<a href="#" class="more_review call">Оставить отзыв</a>
+																									</div>
+																								</div>
+																								<!-- END REVIEWS -->
+																								<!-- CONTACTS -->
+																								<div class="contacts_wrap">
+																									<div class="wrapper">
+																										<div class="main_container clearfix" id='m8'>
+																											<div class="l_side">
+																												<span class='dop'>
+																													<h2>Остались вопросы?</h2>
+																													<i>Напишите директору</i>
+																													<a href="#m3">Задать вопрос директору</a>
+																												</span>
+																												<div class="title">Ждем вас по адресу:</div>
+																												<p>г. Барнаул, ул. Павловский тракт 275, вход со двора</p>
+																												<a href='tel:+79134558788' class='tel'>+7 913 455 87-88</a>
+																												<a href='tel:+73822455878' class='tel2'>+7 (3822) 45-58-78</a>
+																												<p class='time'>Часы работы с 7:00 до 21:00</p>
+																												<a href="mailto:info@abrikoska.ru" class='email'>info@abrikoska.ru</a>
+																												<div class="sub_title">Следуйте за нами:</div>
+																												<div class="social"><a href="#"></a><a href="#"></a></div>
+																												<span>ИП Каратаева ТБ</span>
+																												<span>ИНН 456123456789</span>
+																												<span>ОГРН 8754665432456</span>
+																												<div class="pay_wrap">
+																													<a href="#"></a>
+																													<a href="#"></a>
+																													<a href="#"></a>
+																												</div>
+																											</div>
+																											<div class="r_side">
+																												<div class="info">
+																													<h2>Приходите к нам по адресу:</h2>
+																													<p>г. Барнаул, ул. Павловский тракт 275, вход со двора</p>
+																													<a href="tel:+79134558788">+7 913 455 87-88</a>
+																												</div>
+																												<div id="map"></div>
+																											</div>
+																										</div>
+																									</div>
+																								</div>
+																								<!-- END CONTACTS -->
+																								<!-- FOOTER -->
+																								<div class="footer_bg">
+																									<div class="main_container clearfix">
+																										<div class="copryright">www.abricoska.com © 2016 Все права защищены</div>
+																									</div>
+																								</div>
+
+																								<div class="b-popap">
+																									<div class="popap">
+																										<span class='close'><img src="images/close.png" alt="close" /></span>
+																										<form class='form' method="POST" action="php/order1.php">
+																											<h2>Форма для отзыва</h2>
+																											<input type="text" name="name" id="name" placeholder="Имя" />
+																											<input type="tel" name="phone" id="phone2" placeholder="Ваш телефон" />
+																											<input type="email" name="email" id="email" placeholder="VK / OK / E-mail" />
+																											<p><input type="checkbox" id='checkbox' name='checkbox' />я могу подтвердить отзыв</p>
+																											<textarea name="subject" name='subject' id='subject' placeholder="Текст отзыва:"></textarea>
+																											<div id="recaptcha2"></div>
+																											<input type="submit" value="Оставить отзыв" />
+																										</form>
+																									</div>
+																								</div>
+
+																								<!-- END FOOTER -->
+																								<script src="js/jquery-1.11.3.min.js"></script>
+																								<script src="js/jquery.bxslider.min.js"></script>
+																								<script src="js/jquery.fancybox.pack.js"></script>
+																								<script src="js/jquery.maskedinput.min.js"></script>
+																								<script src="js/jquery.validate.js"></script>
+																								<script src="js/SmoothScroll.js"></script>
+																								<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+																								<script src="js/script.js"></script>
+
+																								<script>
+																									ymaps.ready(function () {
+																										var myMap = new ymaps.Map('map', {
+																											center: [53.343516, 83.665771],
+																											zoom: 16,
+																											controls: ['zoomControl']
+																										}, {
+																											searchControlProvider: 'yandex#search'
+																										}),
+																										myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+																											hintContent: 'Собственный значок метки',
+																											balloonContent: 'г. Барнаул, ул. Павловский тракт 275, вход со двора'
+																										}, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: 'images//marker.png',
+            // Размеры метки.
+            iconImageSize: [32, 50],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            iconImageOffset: [-15, -15]
+         });
+
+																										myMap.geoObjects.add(myPlacemark);
+																										myMap.behaviors.disable('scrollZoom');
+																									});
+																								</script>
+
+																								<script src="https://www.google.com/recaptcha/api.js?onload=myCallBack&render=explicit" async defer></script>
+
+																								<script>
+																									var recaptcha1;
+																									var recaptcha2;
+																									var myCallBack = function() {
+		//Render the recaptcha1 on the element with ID "recaptcha1"
+		recaptcha1 = grecaptcha.render('recaptcha1', {
+			'sitekey' : '6LcsIRAUAAAAAHZYaE6h9XpSdHUGTqkOuZd5rbCG',
+			'theme' : 'light'
+		});
+		
+		//Render the recaptcha2 on the element with ID "recaptcha2"
+		recaptcha2 = grecaptcha.render('recaptcha2', {
+			'sitekey' : '6LcsIRAUAAAAAHZYaE6h9XpSdHUGTqkOuZd5rbCG',
+			'theme' : 'dark'
+		});
+	};
+</script>
+
+</body>
+</html>
